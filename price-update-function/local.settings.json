@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=stockupdatedevelop;AccountKey=We4e3ybVyfsjnwu0GfFKlveMNIQqP5MLPdfiGUnxpwRL2CttyODja95gzRz/D6QaMKGsXK1SQ1DrsxPNtduzSw==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "REDIS_PASSWORD": "4cAM6N9dIBWA7ghsIMy3JjrG9bCr3M8sysK",
+    "REDIS_HOST": "products-prod.redis.cache.windows.net",
+    "PUBLISHED_POS": "AC,AG,NI",
+    "BlobStorageAccountConnString":"DefaultEndpointsProtocol=https;AccountName=richrelevancedevelop;AccountKey=w0JzaFVptRlzRaFJ1EAYpRKhM9rRhNZbEq6wpIIhsFhqlQrpNsoeJhAJKw3vED/1qXtZoz26BuyJgjohyOMJ7w==;EndpointSuffix=core.windows.net"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*",
+    "CORSCredentials": false
+  }
+}

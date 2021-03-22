@@ -1,0 +1,13 @@
+application: stock
+productOwner: abhardwaj@mafcarrefour.com
+region: uaenorth
+productName: productservice
+services:
+  - name: price-update-fn
+    config:
+      category: functionapp
+      tiersize: P1v2
+      stack: JAVA|8-jre8
+      envVariables: []
+      healthcheck: /
+      source: 'https://bitbucket.org/c4hybris/price-update-function'
